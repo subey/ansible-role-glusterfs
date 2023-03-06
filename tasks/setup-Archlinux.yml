@@ -1,0 +1,5 @@
+---
+- name: Ensure GlusterFS is installed.
+  package:
+    name: glusterfs
+    state: present
